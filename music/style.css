@@ -1,0 +1,154 @@
+body {
+    background-color: black;
+}
+
+.sidebar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: auto;
+    padding: 9px;
+    width: 420px;
+    display: flex;
+}
+.container__search {
+    background-color: rgb(24, 24, 24);
+    border-radius: 10px;
+    padding: 16px 0px 0px 16px;
+
+}
+.sidebar__navigation.icon{
+    background-color: rgb(24, 24, 24);
+    border-radius: 10px;
+    padding: 16px 0px 0px 16px;
+    display: flex;
+}
+.sidebar nav ul{
+    padding: 0px 20px 10px 20px;
+}
+.sidebar nav li{
+    padding: 10px 0px;
+}
+.sidebar nav ul a{
+    color: #b3b3b3;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+    font-family: "DM Sans", sans-serif;
+}
+.list .fa, .library__button .fa{
+    font-size: 14px;
+    margin-right: 10px;
+}
+.list a:hover{
+    color: white;
+}
+.icon img{
+    width: 80px;
+    padding: 0px 20px 10px 20px;
+}
+.container__library {
+    display: flex;
+    background-color: rgb(24, 24, 24);
+    border-radius: 10px;
+    padding: 4px 8px;
+    flex-direction: column;
+    color: #b3b3b3;
+    font-weight: 600;
+    font-size: 14px;
+    margin-top: 9px;
+    height: 80vh;
+}
+.library__content{
+    display: flex;
+    justify-content: space-between;
+
+}
+.library__button{
+    display: flex;
+    color: #b3b3b3;
+    background-color: transparent;
+    border: 0;
+    padding: 10px 25px;
+    margin-right: 10px;
+    font-weight: 600;
+    font-size: 14px;
+    font-family: "DM Sans", sans-serif;
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+    cursor: pointer;
+}
+.library__button:hover{
+    color: white;
+}
+.library__content .fa-plus{
+    margin: 10px 17px;
+    font-size: 17px;
+    cursor: pointer;
+}
+.library__content .fa-plus:hover{
+    color: white;
+}
+.section-playlist__content, .section-podcast__content{
+    display: flex;
+    position:inherit;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 15px;
+    background-color:rgb(46, 45, 45);
+    border-radius: 10px;
+    margin-bottom: 20px;
+    color: white;
+    margin: 12px 0px;
+    padding: 16px 25px;
+}
+.title{
+    font-size: 14px;
+    font-weight: 750;
+    font-family: "DM Sans", sans-serif;
+}
+
+.subtitle{
+    font-size: 12px;
+    font-weight: 500;
+    font-family: "DM Sans", sans-serif;
+}
+.section-playlist__button{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 20px;
+    border: 0;
+    color: black;
+    height: 30px;
+    width: 113px;
+    font-size: 12px;
+    font-weight: 750;
+    font-family: "DM Sans", sans-serif;
+}
+
+.section-podcast__button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 20px;
+    border:0;
+    color: black;
+    height: 30px;
+    width: 130px;
+    font-size: 12px;
+    font-weight: 750;
+    font-family: "DM Sans", sans-serif;
+}
+.standard__links{
+    margin:  5px 5px 0px;
+
+}
+.languages{
+    color: aliceblue;
+}
+
+Corrija o codigo acima para que a classe .container__library desca ate o final da pagina
